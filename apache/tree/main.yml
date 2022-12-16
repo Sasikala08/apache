@@ -1,0 +1,6 @@
+---
+- name: install tree package
+  ansible.builtin.yum:
+    name: tree
+    state: present
+
